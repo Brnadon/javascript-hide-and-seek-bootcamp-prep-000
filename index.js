@@ -6,17 +6,17 @@ function nestedTarget(){
 }
 
 
-querySelector() 
+querySelector()
 function getFirstSelector(selector){
  let element = document.querySelector(`${selector}`)
    return element
  }
 function querySelectorAll() {
-  
-} 
+
+}
 
 function div#grand-node () {
-  
+
 }
 
 
@@ -29,7 +29,7 @@ function div#grand-node () {
      return parseInt(rank[i].innerHTML) + n
    }
  }
- 
+
 function deepestChild(){
   let child = document.querySelector('div#grand-node div div div div')
     return child
